@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2B948C233B851400F628C3 /* WeatherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B948B233B851400F628C3 /* WeatherViewCell.swift */; };
+		0A2B948E233B872600F628C3 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B948D233B872600F628C3 /* WeatherViewController.swift */; };
+		0A2B9490233B8C4A00F628C3 /* WeatherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B948F233B8C4A00F628C3 /* WeatherItem.swift */; };
+		0A2B9492233B8C8900F628C3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B9491233B8C8900F628C3 /* APIClient.swift */; };
+		0A2B9494233BA39100F628C3 /* DataPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B9493233BA39100F628C3 /* DataPresentingViewController.swift */; };
+		0AB2D2BA233CABE5005DB2DA /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2D2B9233CABE5005DB2DA /* EmergencyViewController.swift */; };
+		660BA43320A339B900C2997B /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BA43220A339B900C2997B /* DeliveryViewController.swift */; };
+		660BA43520A33C5600C2997B /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BA43420A33C5600C2997B /* StatisticViewController.swift */; };
+		660BA43720A35AC900C2997B /* DriverOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BA43620A35AC900C2997B /* DriverOrder.swift */; };
+		660BA43920A35C2A00C2997B /* DriverOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BA43820A35C2A00C2997B /* DriverOrderCell.swift */; };
+		66133E5E209F87ED0014B689 /* DriverOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133E5D209F87ED0014B689 /* DriverOrdersViewController.swift */; };
+		6628DD91207CBEB20099F00B /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628DD90207CBEB20099F00B /* Tray.swift */; };
+		6628DD93207E26E40099F00B /* TrayViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628DD92207E26E40099F00B /* TrayViewCell.swift */; };
+		6628DD95207E34390099F00B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6628DD94207E34390099F00B /* CoreLocation.framework */; };
+		6628DD97207EC6090099F00B /* OrderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628DD96207EC6090099F00B /* OrderViewCell.swift */; };
+		663B8683206D71B40043CC83 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B8682206D71B40043CC83 /* Meal.swift */; };
+		663B8685206D7B4F0043CC83 /* MealViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B8684206D7B4F0043CC83 /* MealViewCell.swift */; };
+		6644D62E20738D1400F3BA13 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D62D20738D1400F3BA13 /* Helpers.swift */; };
+		6647E9731F87CC2F00E5C73F /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6647E9721F87CC2F00E5C73F /* SegmentedControl.swift */; };
+		665ACB751F83B4EE00377795 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665ACB741F83B4EE00377795 /* MealDetailsViewController.swift */; };
+		665ACB771F83CDE500377795 /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665ACB761F83CDE500377795 /* TrayViewController.swift */; };
+		665ACB7A1F83CEC700377795 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665ACB791F83CEC700377795 /* MapKit.framework */; };
+		6689DB28208799810075A083 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6689DB27208799800075A083 /* OrderViewController.swift */; };
+		668CEDC31F72803F00A3CAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEDC21F72803F00A3CAC8 /* AppDelegate.swift */; };
+		668CEDC81F72803F00A3CAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668CEDC61F72803F00A3CAC8 /* Main.storyboard */; };
+		668CEDCA1F72803F00A3CAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668CEDC91F72803F00A3CAC8 /* Assets.xcassets */; };
+		668CEDCD1F72803F00A3CAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668CEDCB1F72803F00A3CAC8 /* LaunchScreen.storyboard */; };
+		668CEDD71F79A95000A3CAC8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CEDD61F79A95000A3CAC8 /* SWRevealViewController.m */; };
+		668CEDDA1F79C3AA00A3CAC8 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEDD91F79C3AA00A3CAC8 /* RestaurantViewController.swift */; };
+		668CEDDC1F79CB2800A3CAC8 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEDDB1F79CB2800A3CAC8 /* CustomerMenuTableViewController.swift */; };
+		668CEDDE1F7B07E200A3CAC8 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEDDD1F7B07E200A3CAC8 /* MealListTableViewController.swift */; };
+		669E9DD81F83DDBB00F508A4 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669E9DD71F83DDBB00F508A4 /* PaymentViewController.swift */; };
+		66A17E9820335F8100612047 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A17E9720335F8100612047 /* Restaurant.swift */; };
+		66A17E9C2034966A00612047 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A17E9B2034966A00612047 /* RestaurantViewCell.swift */; };
+		66B48315209F8A55001DDA70 /* DriverMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B48314209F8A55001DDA70 /* DriverMenuViewController.swift */; };
+		66CBBF981F8FE759008197AF /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBBF971F8FE759008197AF /* FBManager.swift */; };
+		66CBBF9A1F8FE9EE008197AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBBF991F8FE9EE008197AF /* LoginViewController.swift */; };
+		66CBBF9C1F8FF1FC008197AF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBBF9B1F8FF1FC008197AF /* User.swift */; };
+		66CBBFA21F8FF998008197AF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBBFA11F8FF998008197AF /* APIManager.swift */; };
+		66CBBFA41F900690008197AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBBFA31F900690008197AF /* Constants.swift */; };
+		70A7E857DF5CA50AB31ADD08 /* Pods_BlueLagoonMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E314D845D819FAF36DE2CE5 /* Pods_BlueLagoonMobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2B948B233B851400F628C3 /* WeatherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewCell.swift; sourceTree = "<group>"; };
+		0A2B948D233B872600F628C3 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		0A2B948F233B8C4A00F628C3 /* WeatherItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherItem.swift; sourceTree = "<group>"; };
+		0A2B9491233B8C8900F628C3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0A2B9493233BA39100F628C3 /* DataPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPresentingViewController.swift; sourceTree = "<group>"; };
+		0AB2D2B9233CABE5005DB2DA /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		14A287FDF3A52D6DDB1DC1C3 /* Pods-BlueLagoonMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueLagoonMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueLagoonMobile/Pods-BlueLagoonMobile.release.xcconfig"; sourceTree = "<group>"; };
+		4E314D845D819FAF36DE2CE5 /* Pods_BlueLagoonMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueLagoonMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660BA43220A339B900C2997B /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		660BA43420A33C5600C2997B /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		660BA43620A35AC900C2997B /* DriverOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOrder.swift; sourceTree = "<group>"; };
+		660BA43820A35C2A00C2997B /* DriverOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOrderCell.swift; sourceTree = "<group>"; };
+		66133E5D209F87ED0014B689 /* DriverOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOrdersViewController.swift; sourceTree = "<group>"; };
+		6628DD90207CBEB20099F00B /* Tray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tray.swift; sourceTree = "<group>"; };
+		6628DD92207E26E40099F00B /* TrayViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayViewCell.swift; sourceTree = "<group>"; };
+		6628DD94207E34390099F00B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6628DD96207EC6090099F00B /* OrderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewCell.swift; sourceTree = "<group>"; };
+		663B8682206D71B40043CC83 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		663B8684206D7B4F0043CC83 /* MealViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewCell.swift; sourceTree = "<group>"; };
+		6644D62D20738D1400F3BA13 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		6647E9721F87CC2F00E5C73F /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		665ACB741F83B4EE00377795 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		665ACB761F83CDE500377795 /* TrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		665ACB791F83CEC700377795 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6689DB27208799800075A083 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		668CEDBF1F72803F00A3CAC8 /* BlueLagoonMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueLagoonMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668CEDC21F72803F00A3CAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		668CEDC71F72803F00A3CAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668CEDC91F72803F00A3CAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668CEDCC1F72803F00A3CAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668CEDCE1F72803F00A3CAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668CEDD41F79A94F00A3CAC8 /* BlueLagoonMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueLagoonMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		668CEDD51F79A95000A3CAC8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		668CEDD61F79A95000A3CAC8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		668CEDD91F79C3AA00A3CAC8 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		668CEDDB1F79CB2800A3CAC8 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
+		668CEDDD1F7B07E200A3CAC8 /* MealListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		669E9DD71F83DDBB00F508A4 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		66A17E9720335F8100612047 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		66A17E9B2034966A00612047 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
+		66B48314209F8A55001DDA70 /* DriverMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMenuViewController.swift; sourceTree = "<group>"; };
+		66CBBF961F8FE0B3008197AF /* BlueLagoonMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueLagoonMobile.entitlements; sourceTree = "<group>"; };
+		66CBBF971F8FE759008197AF /* FBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		66CBBF991F8FE9EE008197AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		66CBBF9B1F8FF1FC008197AF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		66CBBFA11F8FF998008197AF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		66CBBFA31F900690008197AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B213DF0DB59EDCBA6D6B1847 /* Pods-BlueLagoonMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueLagoonMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueLagoonMobile/Pods-BlueLagoonMobile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668CEDBC1F72803F00A3CAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6628DD95207E34390099F00B /* CoreLocation.framework in Frameworks */,
+				665ACB7A1F83CEC700377795 /* MapKit.framework in Frameworks */,
+				70A7E857DF5CA50AB31ADD08 /* Pods_BlueLagoonMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66133E5F209F898F0014B689 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				66133E5D209F87ED0014B689 /* DriverOrdersViewController.swift */,
+				66B48314209F8A55001DDA70 /* DriverMenuViewController.swift */,
+				660BA43220A339B900C2997B /* DeliveryViewController.swift */,
+				660BA43420A33C5600C2997B /* StatisticViewController.swift */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		66133E60209F89A30014B689 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				66CBBF991F8FE9EE008197AF /* LoginViewController.swift */,
+				668CEDD91F79C3AA00A3CAC8 /* RestaurantViewController.swift */,
+				0A2B948D233B872600F628C3 /* WeatherViewController.swift */,
+				668CEDDB1F79CB2800A3CAC8 /* CustomerMenuTableViewController.swift */,
+				668CEDDD1F7B07E200A3CAC8 /* MealListTableViewController.swift */,
+				665ACB741F83B4EE00377795 /* MealDetailsViewController.swift */,
+				665ACB761F83CDE500377795 /* TrayViewController.swift */,
+				669E9DD71F83DDBB00F508A4 /* PaymentViewController.swift */,
+				6689DB27208799800075A083 /* OrderViewController.swift */,
+				0A2B9493233BA39100F628C3 /* DataPresentingViewController.swift */,
+				0AB2D2B9233CABE5005DB2DA /* EmergencyViewController.swift */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		665ACB781F83CEC600377795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6628DD94207E34390099F00B /* CoreLocation.framework */,
+				665ACB791F83CEC700377795 /* MapKit.framework */,
+				4E314D845D819FAF36DE2CE5 /* Pods_BlueLagoonMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668CEDB61F72803F00A3CAC8 = {
+			isa = PBXGroup;
+			children = (
+				668CEDC11F72803F00A3CAC8 /* BlueLagoonMobile */,
+				668CEDC01F72803F00A3CAC8 /* Products */,
+				665ACB781F83CEC600377795 /* Frameworks */,
+				B9FBE9EDFDAB08CAEE4B232F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		668CEDC01F72803F00A3CAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668CEDBF1F72803F00A3CAC8 /* BlueLagoonMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668CEDC11F72803F00A3CAC8 /* BlueLagoonMobile */ = {
+			isa = PBXGroup;
+			children = (
+				66CBBFA01F8FF8E3008197AF /* Manager */,
+				66CBBF9F1F8FF8DC008197AF /* Controller */,
+				66CBBF9E1F8FF8D6008197AF /* View */,
+				66CBBF9D1F8FF8CC008197AF /* Model */,
+				66CBBF961F8FE0B3008197AF /* BlueLagoonMobile.entitlements */,
+				668CEDD81F79A9D700A3CAC8 /* Lib */,
+				668CEDC21F72803F00A3CAC8 /* AppDelegate.swift */,
+				668CEDC61F72803F00A3CAC8 /* Main.storyboard */,
+				668CEDC91F72803F00A3CAC8 /* Assets.xcassets */,
+				668CEDCB1F72803F00A3CAC8 /* LaunchScreen.storyboard */,
+				668CEDCE1F72803F00A3CAC8 /* Info.plist */,
+			);
+			path = BlueLagoonMobile;
+			sourceTree = "<group>";
+		};
+		668CEDD81F79A9D700A3CAC8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				668CEDD51F79A95000A3CAC8 /* SWRevealViewController.h */,
+				668CEDD61F79A95000A3CAC8 /* SWRevealViewController.m */,
+				668CEDD41F79A94F00A3CAC8 /* BlueLagoonMobile-Bridging-Header.h */,
+				6647E9721F87CC2F00E5C73F /* SegmentedControl.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		66B48310209F89F4001DDA70 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				660BA43820A35C2A00C2997B /* DriverOrderCell.swift */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		66B48311209F89FC001DDA70 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				66A17E9B2034966A00612047 /* RestaurantViewCell.swift */,
+				0A2B948B233B851400F628C3 /* WeatherViewCell.swift */,
+				0A2B948F233B8C4A00F628C3 /* WeatherItem.swift */,
+				0A2B9491233B8C8900F628C3 /* APIClient.swift */,
+				663B8684206D7B4F0043CC83 /* MealViewCell.swift */,
+				6628DD92207E26E40099F00B /* TrayViewCell.swift */,
+				6628DD96207EC6090099F00B /* OrderViewCell.swift */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		66B48312209F8A0E001DDA70 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				66CBBF9B1F8FF1FC008197AF /* User.swift */,
+				66A17E9720335F8100612047 /* Restaurant.swift */,
+				663B8682206D71B40043CC83 /* Meal.swift */,
+				6628DD90207CBEB20099F00B /* Tray.swift */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		66B48313209F8A2D001DDA70 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				660BA43620A35AC900C2997B /* DriverOrder.swift */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		66CBBF9D1F8FF8CC008197AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66B48313209F8A2D001DDA70 /* Driver */,
+				66B48312209F8A0E001DDA70 /* Customer */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		66CBBF9E1F8FF8D6008197AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66B48311209F89FC001DDA70 /* Customer */,
+				66B48310209F89F4001DDA70 /* Driver */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		66CBBF9F1F8FF8DC008197AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66133E60209F89A30014B689 /* Customer */,
+				66133E5F209F898F0014B689 /* Driver */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		66CBBFA01F8FF8E3008197AF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				66CBBF971F8FE759008197AF /* FBManager.swift */,
+				66CBBFA11F8FF998008197AF /* APIManager.swift */,
+				66CBBFA31F900690008197AF /* Constants.swift */,
+				6644D62D20738D1400F3BA13 /* Helpers.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B9FBE9EDFDAB08CAEE4B232F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B213DF0DB59EDCBA6D6B1847 /* Pods-BlueLagoonMobile.debug.xcconfig */,
+				14A287FDF3A52D6DDB1DC1C3 /* Pods-BlueLagoonMobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668CEDBE1F72803F00A3CAC8 /* BlueLagoonMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668CEDD11F72803F00A3CAC8 /* Build configuration list for PBXNativeTarget "BlueLagoonMobile" */;
+			buildPhases = (
+				4D14403CCF0BC25D2BEA3802 /* [CP] Check Pods Manifest.lock */,
+				668CEDBB1F72803F00A3CAC8 /* Sources */,
+				668CEDBC1F72803F00A3CAC8 /* Frameworks */,
+				668CEDBD1F72803F00A3CAC8 /* Resources */,
+				0807D005F06880CDC5DEC3A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueLagoonMobile;
+			productName = BlueLagoonMobile;
+			productReference = 668CEDBF1F72803F00A3CAC8 /* BlueLagoonMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668CEDB71F72803F00A3CAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Benazoulaydev;
+				TargetAttributes = {
+					668CEDBE1F72803F00A3CAC8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69425R33VP;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 668CEDBA1F72803F00A3CAC8 /* Build configuration list for PBXProject "BlueLagoonMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 668CEDB61F72803F00A3CAC8;
+			productRefGroup = 668CEDC01F72803F00A3CAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668CEDBE1F72803F00A3CAC8 /* BlueLagoonMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668CEDBD1F72803F00A3CAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668CEDCD1F72803F00A3CAC8 /* LaunchScreen.storyboard in Resources */,
+				668CEDCA1F72803F00A3CAC8 /* Assets.xcassets in Resources */,
+				668CEDC81F72803F00A3CAC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0807D005F06880CDC5DEC3A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlueLagoonMobile/Pods-BlueLagoonMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueLagoonMobile/Pods-BlueLagoonMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D14403CCF0BC25D2BEA3802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueLagoonMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668CEDBB1F72803F00A3CAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663B8685206D7B4F0043CC83 /* MealViewCell.swift in Sources */,
+				66CBBF981F8FE759008197AF /* FBManager.swift in Sources */,
+				660BA43320A339B900C2997B /* DeliveryViewController.swift in Sources */,
+				6644D62E20738D1400F3BA13 /* Helpers.swift in Sources */,
+				66CBBFA41F900690008197AF /* Constants.swift in Sources */,
+				0A2B9492233B8C8900F628C3 /* APIClient.swift in Sources */,
+				6647E9731F87CC2F00E5C73F /* SegmentedControl.swift in Sources */,
+				660BA43520A33C5600C2997B /* StatisticViewController.swift in Sources */,
+				663B8683206D71B40043CC83 /* Meal.swift in Sources */,
+				66A17E9820335F8100612047 /* Restaurant.swift in Sources */,
+				665ACB751F83B4EE00377795 /* MealDetailsViewController.swift in Sources */,
+				665ACB771F83CDE500377795 /* TrayViewController.swift in Sources */,
+				0A2B9490233B8C4A00F628C3 /* WeatherItem.swift in Sources */,
+				66CBBF9C1F8FF1FC008197AF /* User.swift in Sources */,
+				660BA43720A35AC900C2997B /* DriverOrder.swift in Sources */,
+				66133E5E209F87ED0014B689 /* DriverOrdersViewController.swift in Sources */,
+				66CBBFA21F8FF998008197AF /* APIManager.swift in Sources */,
+				6628DD93207E26E40099F00B /* TrayViewCell.swift in Sources */,
+				660BA43920A35C2A00C2997B /* DriverOrderCell.swift in Sources */,
+				66A17E9C2034966A00612047 /* RestaurantViewCell.swift in Sources */,
+				6628DD97207EC6090099F00B /* OrderViewCell.swift in Sources */,
+				668CEDDA1F79C3AA00A3CAC8 /* RestaurantViewController.swift in Sources */,
+				668CEDDE1F7B07E200A3CAC8 /* MealListTableViewController.swift in Sources */,
+				668CEDC31F72803F00A3CAC8 /* AppDelegate.swift in Sources */,
+				6628DD91207CBEB20099F00B /* Tray.swift in Sources */,
+				668CEDDC1F79CB2800A3CAC8 /* CustomerMenuTableViewController.swift in Sources */,
+				669E9DD81F83DDBB00F508A4 /* PaymentViewController.swift in Sources */,
+				66CBBF9A1F8FE9EE008197AF /* LoginViewController.swift in Sources */,
+				0A2B948E233B872600F628C3 /* WeatherViewController.swift in Sources */,
+				0AB2D2BA233CABE5005DB2DA /* EmergencyViewController.swift in Sources */,
+				0A2B9494233BA39100F628C3 /* DataPresentingViewController.swift in Sources */,
+				0A2B948C233B851400F628C3 /* WeatherViewCell.swift in Sources */,
+				66B48315209F8A55001DDA70 /* DriverMenuViewController.swift in Sources */,
+				668CEDD71F79A95000A3CAC8 /* SWRevealViewController.m in Sources */,
+				6689DB28208799810075A083 /* OrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		668CEDC61F72803F00A3CAC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668CEDC71F72803F00A3CAC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		668CEDCB1F72803F00A3CAC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668CEDCC1F72803F00A3CAC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668CEDCF1F72803F00A3CAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668CEDD01F72803F00A3CAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668CEDD21F72803F00A3CAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B213DF0DB59EDCBA6D6B1847 /* Pods-BlueLagoonMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BlueLagoonMobile/BlueLagoonMobile.entitlements;
+				DEVELOPMENT_TEAM = 69425R33VP;
+				INFOPLIST_FILE = BlueLagoonMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benazoulaydev.BlueLagoonMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueLagoonMobile/BlueLagoonMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		668CEDD31F72803F00A3CAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A287FDF3A52D6DDB1DC1C3 /* Pods-BlueLagoonMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BlueLagoonMobile/BlueLagoonMobile.entitlements;
+				DEVELOPMENT_TEAM = 69425R33VP;
+				INFOPLIST_FILE = BlueLagoonMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benazoulaydev.BlueLagoonMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueLagoonMobile/BlueLagoonMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668CEDBA1F72803F00A3CAC8 /* Build configuration list for PBXProject "BlueLagoonMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668CEDCF1F72803F00A3CAC8 /* Debug */,
+				668CEDD01F72803F00A3CAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668CEDD11F72803F00A3CAC8 /* Build configuration list for PBXNativeTarget "BlueLagoonMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668CEDD21F72803F00A3CAC8 /* Debug */,
+				668CEDD31F72803F00A3CAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668CEDB71F72803F00A3CAC8 /* Project object */;
+}

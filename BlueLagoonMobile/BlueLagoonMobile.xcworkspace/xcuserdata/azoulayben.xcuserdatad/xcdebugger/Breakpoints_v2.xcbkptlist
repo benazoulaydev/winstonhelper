@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlueLagoonMobile/TrayViewCell.swift"
+            timestampString = "591110676.988762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "TrayViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlueLagoonMobile.TrayViewCell.lbSubTotal.getter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BlueLagoonMobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azoulayben/Desktop/BlueLagoonMobile/BlueLagoonMobile/TrayViewCell.swift"
+                  timestampString = "591117934.621835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlueLagoonMobile.TrayViewCell.lbSubTotal.setter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BlueLagoonMobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azoulayben/Desktop/BlueLagoonMobile/BlueLagoonMobile/TrayViewCell.swift"
+                  timestampString = "591117934.624608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlueLagoonMobile.TrayViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; BlueLagoonMobile.TrayViewCell"
+                  moduleName = "BlueLagoonMobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azoulayben/Desktop/BlueLagoonMobile/BlueLagoonMobile/TrayViewCell.swift"
+                  timestampString = "591117934.626194"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlueLagoonMobile.TrayViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BlueLagoonMobile.TrayViewCell&gt;"
+                  moduleName = "BlueLagoonMobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/azoulayben/Desktop/BlueLagoonMobile/BlueLagoonMobile/TrayViewCell.swift"
+                  timestampString = "591117934.628145"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "241">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlueLagoonMobile/MealDetailsViewController.swift"
+            timestampString = "591186841.506741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "loadMeal()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlueLagoonMobile/MealDetailsViewController.swift"
+            timestampString = "591186841.506838"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loadMeal()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlueLagoonMobile/DataPresentingViewController.swift"
+            timestampString = "591186841.5069"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "DataPresentingViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
